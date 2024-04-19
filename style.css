@@ -1,3 +1,6 @@
+*{
+    border: 1px solid black;
+}
 html,
 body {
     height: 100%;
@@ -58,6 +61,17 @@ li{
 .smallDescription{
     font-size: 20px;
 }
-#map {
+.map{
     height: 100%;
+}
+#map {
+    height: 400px;
+    width: 100%;
+   }
+a{
+    color: black;
+    text-decoration:none
+}
+a:hover{
+    color: black;
 }
